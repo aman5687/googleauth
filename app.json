@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.googleauth"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.googleauth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "myGoogleApp",
+    "extra": {
+      "eas": {
+        "projectId": "382eff70-52f6-49d8-a7af-77772076c7fc"
+      }
+    },
+    "owner": "kabir5687"
   }
 }
